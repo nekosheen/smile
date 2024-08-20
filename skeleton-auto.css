@@ -16,6 +16,20 @@
 */
 
 
+@font-face {
+  font-family: 'Swile'; /* Give your font a unique name */
+  src: url('./extra/custom-assets/SwileSans-Bold.woff2') format('woff2');
+  font-weight: normal;  /* Specify the font's weight */
+  font-style: normal;  /* Specify the font's style */
+}
+
+@font-face {
+  font-family: 'Graphik'; /* Give your font a unique name */
+  src: url('./extra/custom-assets/Graphik-Regular.woff2') format('woff2');
+  font-weight: normal;  /* Specify the font's weight */
+  font-style: normal;  /* Specify the font's style */
+}
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -65,7 +79,7 @@
     --bgColor: #5A639C;
     --bgColor2: #5A639C;
     --accentColor: #FFF;
-    --font: 'Karla', sans-serif;
+    --font: 'Graphik', sans-serif;
     --delay: .3s; }
 
   /* Background
@@ -76,7 +90,7 @@
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
+    background-image: url('./extra/custom-assets/background-gradient.jpg');
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -113,6 +127,7 @@
   h1 {
     margin-top: 0;
     margin-bottom: 16px;
+    font-family: 'Swile', 'Karla';
     font-weight: 400; }
   h1 { font-size:24px; line-height: 64px; letter-spacing: 0;}
   
