@@ -144,11 +144,11 @@
   /* Links
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-    color: #0085FF; 
+    color: white; 
     text-decoration: none;
   }
   a:hover {
-    color: #0085FF; }
+    color: white; }
   
   .spacing {
     padding: 0 10px;
@@ -240,6 +240,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Styling for credit footer text */
 .credit-txt {
+  color: white;
   font-weight: 700;
   font-size: 15px;
   text-decoration: none;
